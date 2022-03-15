@@ -2,6 +2,6 @@ import React from 'react'
 
 export default () => (
   <main>
-    Search
+    <h1>Search</h1>
   </main>
 )
