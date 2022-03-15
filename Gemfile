@@ -7,7 +7,8 @@ ruby "3.1.0"
 gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+# gem "sprockets-rails"
+gem 'propshaft'
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
@@ -16,7 +17,8 @@ gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
-gem "jsbundling-rails"
+gem 'jsbundling-rails'
+gem 'cssbundling-rails'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -49,9 +51,6 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'haml-rails'
-gem 'propshaft'
-gem 'jsbundling-rails'
-gem 'cssbundling-rails'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
