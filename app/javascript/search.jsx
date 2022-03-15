@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import Search from './components/Search'
+import Router from './components/Search'
 
-ReactDom.render(<Search />, document.querySelector('#js-search'))
+ReactDom.render(<Router />, document.querySelector('#js-search'))
